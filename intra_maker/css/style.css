@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+
+
+body, h1, h2, h3, h4, h5, h6, p, span {font-family: 'pretendard'!important;}
+*{box-sizing: border-box;}
+
+
+.Nav, .footer, .intro {
+  width: 1100px;
+}
+
+.font_weight_600 {
+  font-weight: 600;
+}
+
+.Nav {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+
+.logotop,.menulist,.megaphone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logotop {
+  justify-content: flex-start;
+  margin: 15px 0 10px;
+  align-items: end;
+}
+
+.call {
+  display: inline-flex;
+  width: 100%;
+  border: solid 2px #EDD500;
+  border-radius: 0.5rem;
+  padding: 0.8rem 2rem;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.call span {
+  padding-left: 6px;
+  padding-right: 20px;
+}
+
+.call p {
+  color: #895050;
+}
+.menulist {
+  gap:70px;
+  font-size: 18px;
+  background-color: #EDD500;
+  padding: 1.2rem 4rem;
+  justify-content: space-between;
+  border-radius: 8px 8px 0 0;
+  font-weight: 700;
+}
+
+.megaphone {
+  background-color: #333; color: #fff;
+  padding: 0.8rem 4rem;
+  border-radius: 0 0 8px 8px ;
+  margin-bottom: 15px;
+}
+
+.slide_text {
+  overflow: hidden;
+  width: 600px;
+  padding: 0 0 0 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_megaphone {
+  padding: 0 0 0 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.menulist > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menulist > a:hover {
+  color: #fff;
+  text-shadow: 2px #111;
+  font-weight: bold;
+}
+
+/* header(Nav) 영역 마무리 */
+
+
+/* intro 영역 */
+
+.intro {
+  display: grid;
+  grid-template-columns: 155px 930px;
+  margin: 0 10px;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.intro_left_menu, .intro_center {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.intro_left_menu {
+  position: sticky;
+  top:10px;
+}
+
+.intro_left_menu_userinfor,
+.intro_left_menu_Settlement,
+.intro_left_menu_category,
+.intro_left_menu_plus {
+  border: solid 2px #EDD500;
+  border-radius: 10px;
+}
+
+
+/* intro > left_menu 영역 */
+.intro_left_menu_userinfor {
+  height: 180px;
+  position: sticky;
+  top:10px;
+}
+
+.intro_left_menu_Settlement {
+  height: 150px;
+  position: sticky;
+  top:205px;
+}
+
+.intro_left_menu_category {
+  height: 200px;
+  position: sticky;
+  top:370px;
+}
+
+.intro_left_menu_plus {
+  position: sticky;
+  top:585px;
+  z-index: 99;
+  background-color: #fff;
+}
+
+
+.intro_left_menu_header,
+.intro_left_menu_body {
+  display: flex;
+  justify-content: center;
+  gap:3px;
+  font-size: 15px;
+}
+
+.intro_left_menu_header {
+  height: 50px;
+  background-color: #EDD500;
+  color: #333;
+  font-weight: 700;
+  align-items: center;
+}
+
+.intro_left_menu_body {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.intro_left_menu_body a {
+  text-decoration: none;
+  color: #111;
+}
+
+
+.intro_left_menu_body strong, 
+.intro_left_menu_body h5 {
+  color: green;
+}
+
+.intro_left_menu_body strong {
+  font-weight: 700;
+}
+
+.intro_left_menu_body h5 {
+  font-size: 13px;
+  margin-top: -12px;
+}
+
+.intro_left_menu_body_list {
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.intro_left_menu_body_list>.intro_left_menu_body{
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 0px;
+  margin-left: -3px;
+}
+
+/* intro > left_menu 영역 마무리 */
+/* intro > center 영역 */
+.intro_center_megaphone {
+  background-image: url(/images/sunflower.jpg);
+  background-color: #EDD500;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.intro_center_megaphone_in {
+  background-color: #fff;
+  width: 780px;
+  height: 58px;
+  margin: 6px 8px;
+  border-radius: 8px;
+  padding: 20px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  gap:20px;
+}
+
+.intro_center_megaphone_in2 {
+  background-color: #fff;
+  width: 130px;
+  height: 58px;
+  border-radius: 8px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: green;
+  font-weight: 700;
+}
+
+.intro_center_megaphone_in p{
+  font-weight: 700;
+  font-size: 17px;
+  
+}
+
+.intro_center_megaphone_in span{
+  font-size: 16px;
+}
+
+
+.intro_center_giveorderlist,
+.intro_center_sendorderlist {
+  border-radius: 0px;
+}
+
+/* sendorderlist 영역 */
+.intro_center_sendorderlist_megaphone,
+.intro_center_giveorderlist_megaphone{
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  /* gap: 13px; */
+  border-radius: 4px;
+  padding: 18px 0 15px 3px;
+}
+
+.intro_center_sendorderlist_megaphone > .strong,
+.intro_center_giveorderlist_megaphone > .strong {
+  color: green;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.intro_center_giveorderlist_megaphone a,
+.intro_center_sendorderlist_megaphone a {
+  flex:1;
+  /* text-decoration: none; */
+  text-align: right;
+  color: #444;
+}
+
+.megaphone_img {
+  width: 15px;
+  position: relative;
+  margin-left: 325px;
+}
+
+
+/* orderlist 테이블 영역 */
+
+.intro_center_giveorderlist table,
+.intro_center_sendorderlist table {
+  width: 100%;
+
+}
+
+.intro th {
+  background-color: rgba(237, 213, 0, 0.7);
+}
+
+.intro th, .intro td {
+  border: 1px solid #333;
+  padding: 12px 10px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 120%;
+}
+
+.want_date,.order_number {
+  color: darkorange;
+}
+
+.unidentified_text {
+  color: rgba(255, 0, 0, 1);
+}
+
+.unidentified_table {
+  background-color: rgba(255, 0, 0, 0.08);
+}
+
+.unidentified_table a,
+.receipt_table a {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.receipt_text {
+  color: green;
+}
+
+.receipt_table {
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+.td_img {
+  width: 16px;
+}
+
+/* giveorderlist 테이블 영역 마무리 */
+
+/* sendorder 영역 */
+
+.sendorder_megaphone,
+.sendorder_orderform,
+.sendorder_member,
+.sendorder_address,
+.sendorder_ribbon,
+.sendorder_date,
+.sendorder_requirements,
+.intro_center_megaphone2 { 
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+  border: solid 2px green;
+  padding: 45px 60px;
+}
+
+.sendorder_member,
+.sendorder_address,
+.sendorder_date,
+.sendorder_ribbon,
+.sendorder_requirements {
+  padding: 25px 66px;
+}
+
+.sendorder_complete {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sendorder_complete_button_active, .sendorder_complete_button {
+  width: 300px;
+  height: 60px;
+  margin-top: 5px;
+  background-color: green;
+  color: #fff;
+  
+}
+
+.sendorder_complete_button_active {
+  margin-right: 20px;
+}
+
+.sendorder_complete_button {
+  background-color: #fff;
+  color: #333;
+}
+
+.sendorder_megaphone p,
+.intro_center_megaphone2 p{
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.sendorder_orderform {
+  padding: 30px 66px;
+}
+
+
+.sendorder_member,
+.sendorder_date,
+.sendorder_orderform_item,
+.sendorder_orderform_originalprice,
+.sendorder_orderform_transactionprice,
+.sendorder_address_item, .sendorder_ribbon_item, .sendorder_requirements_item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.sendorder_orderform_item,
+.sendorder_orderform_originalprice,
+#item_1 {
+  margin-bottom: 20px;
+}
+
+
+.sendorver_orderform_member,
+.giveorder_orderform_member {
+  display: flex;
+  align-items: center;
+  gap:10px;
+  
+}
+
+
+.sendorver_orderform_member > p,
+.giveorder_orderform_member > p
+{
+  font-size: 18px;
+}
+
+.sendorder_member > h2,
+.sendorder_address > h2,
+.sendorder_date > h2,
+.sendorder_ribbon > h2,
+.sendorder_requirements >h2
+{
+  font-size: 20px;
+}
+
+.sendorder_orderform_label {
+  color: green;
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+
+.small_span {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.sendorder_megaphone li,
+.intro_center_megaphone2 li {
+  display: flex;
+  width: 100%;
+  height: auto;
+
+  gap:10px;
+  padding: 20px 25px;
+  margin-bottom: 12px;
+  font-size: 18px;
+
+  font-weight: 600;
+  align-items: center;
+
+  background-color: #e9e9e9;
+  border-radius: 8px;
+  border: solid 1px green;
+}
+
+.sendorder_megaphone_date, .font_green, .intro_center_megaphone2_date {
+  color: green;
+}
+
+.delivery_type {
+  display: none;
+}
+
+
+/* intro > center 영역 마무리 */
+
+
+
+
+/* intro 영역 마무리 */
+
+
+/* footer 영역 */
+.footer {
+  display: flex;
+  border-bottom: solid 3px #EDD500;
+  align-items: center;
+  margin: 10px;
+  gap: 0px;
+  margin: 40px auto 5px;
+  padding-bottom: 15px;
+}
+
+
+.footer_infor_text_1 p, .footer_infor_text_2 p {
+  line-height: 125%;
+  padding-left: 7px;
+  font-size: 13px;  
+}
+
+.footer_infor_text_1 {
+  width: 390px;
+}
+
+.footer_infor_text_2 {
+  width: 410px;
+}
+
+
+/* input 전체 디자인 */
+input::placeholder {
+  color: #d1d1d1;
+}
+
+input, select {
+  width: 190px;
+  height: 40px;
+  border: 0.4px solid #d4d4d4;
+  border-radius: 5px;
+  padding: 0 13px;
+  font-family: 'pretendard';
+  font-size: 16px;
+  
+}
+
+select {
+  width: 60px;
+  text-align: center;
+  appearance: none;
+  border: 1px solid green;
+}
+
+#long-select {
+  width: 90px;
+}
+
+#sendorder_address_placeholder {
+  width: 645px;
+}
+
+#sendorder_requirements_placeholder {
+  width: 390px;
+}
+
+#sendorder_ribbon_item {
+  width: 590px;
+}
+
+button {
+  width: auto;
+  height: 40px;
+  border: 0.4px solid #d4d4d4;
+  border-radius: 5px;
+  font-family: 'pretendard';
+  font-size: 15px;
+  padding: 0 13px;
+}
+
+input:not(:placeholder-shown) {
+  border: 1px solid green;
+  background-image: url(../images/check_ico_active.svg);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+button:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.p_l {
+  margin-right: 20px;
+}
+
+.long_input {
+  width: 250px;
+}
+
+.short_input {
+  width: 160px;
+}

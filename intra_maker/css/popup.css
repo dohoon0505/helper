@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+body, h1, h2, h3, h4, h5, h6, p, span {font-family: 'pretendard'!important;}
+*{box-sizing: border-box;}
+
+
+body {
+    text-align: center;
+    padding: 50px;
+}

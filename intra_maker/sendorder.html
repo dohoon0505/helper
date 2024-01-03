@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/hover.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.js"></script>
+    <title>SUN플라워 인트라넷</title>
+</head>
+<body>
+    <!-- 모든 페이지 공통영역 START -->
+    <header class="Nav">
+      <div class="logotop">
+        <a href="/intra.html"><img class="logo" src="/images/kakaologo.svg" style="margin-right: 25px;"></a>
+        <div class="call">
+          <p>본사 대표번호</p><span>1666-5522</span>
+          <p>본사 FAX</p><span>053-572-2788</span>
+          <p>본사 휴대폰</p><span style="padding-right: 0px;">010-3017-2567</span>
+        </div>
+      </div>
+      <div class="menulist">
+          <a href="#" id="menulist_btn1">본부발주</a>
+          <a href="#" id="menulist_btn2">화원간발주</a>
+          <a href="#" id="menulist_btn3">발주조회</a>
+          <a href="#" id="menulist_btn4">수주조회</a>
+          <a href="#" id="menulist_btn5">정산내역</a>
+          <a href="#" id="menulist_btn6">공지사항</a>
+          <a href="#" id="menulist_btn6">커뮤니티</a>
+      </div>
+      <div class="megaphone">
+        <p class="left_megaphone">공지사항</p>
+
+          <div class="slide_text">
+              <div id="megaphone_list">새롭게 오픈한 썬플라워 인트라넷입니다. 반갑습니다^^</div>
+          </div>
+
+        <p class="right_megaphone">당일 미취급 상품 및 휴일설정</p>
+        <p class="right_megaphone">정보수정</p>
+        <a class="right_megaphone" href='/index.html'>로그아웃</a>
+      </div>
+    </header>
+
+    <main class="intro">
+      <div class="intro_left_menu">
+        <div class="intro_left_menu_userinfor">
+          <div class="intro_left_menu_header">회원접속정보</div>
+          <div class="intro_left_menu_body"><span><strong>메이플라워</strong> 님</span>즐거운 하루 되세요!</div>
+          <div class="intro_left_menu_body">서비스 지역<span><strong>대구광역시 달서구</strong></span></div>
+        </div>
+        <div class="intro_left_menu_Settlement">
+          <div class="intro_left_menu_header">이 달의 정산정보</div>
+          <div class="intro_left_menu_body">12월달 정산금액<span><strong>8,230,000</strong> 원</span></div>
+          <div class="intro_left_menu_body"><h5>본부로 입금하실 금액</h5></div>
+        </div>
+        <div class="intro_left_menu_category">
+          <div class="intro_left_menu_header">수발주 메뉴</div>
+          <div class="intro_left_menu_body_list">
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">즉시 본부발주</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">즉시 화원간발주</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전체 발주리스트</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전체 수주리스트</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">미확인리스트</a></div>
+          </div>
+        </div>
+        <div class="intro_left_menu_plus">
+          <div class="intro_left_menu_header">통계 메뉴</div>
+          <div class="intro_left_menu_body_list">
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">계산서 발행내역</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전국 순위현황</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">정산 연체회원</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전체 정산내역</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">서비스 회원검색</a></div>
+          </div>
+        </div>
+        
+      </div>
+    <!-- 모든 페이지 공통영역 END -->
+
+      <!-- sendorder.html 전용 intro -->
+        <div class="intro_center">
+          <div class="sendorder_megaphone"> <!--공지사항-->
+            <p style="margin-left: 5px; margin-bottom: 8px;" class="animate__animated animate__flash"><span class="sendorder_megaphone_date"> </span>발주 이슈사항을 안내드립니다.</p>
+            <span class="small_span" style="margin-left: 5px; ">(읽지 않아서 생기는 문제에 대한 책임은 화원사에게 있음을 알립니다)</span>
+            <li style="margin-top: 25px;">1.<span id="sendorder_megaphone_sel1" >근조화환 / 축하화환의 경우 배송지에 따라 금액이 변동될 수 있습니다.</span></li>
+            <li>2.<span id="sendorder_megaphone_sel2">당일 서울특별시 축하 처리가 불가능 합니다. 익일 예약마감 18시</span></li>
+            <li>3.<span id="sendorder_megaphone_sel3">금일(2024년 01월 02일) 모든상품 배송이 5시간 이상 소요될 수 있습니다.</span></li>
+            <li>4.<span id="sendorder_megaphone_sel4">인트라넷 업데이트 전까지 이미지 등록이 불가능합니다.</span></li>
+          </div>
+          
+          <div class="sendorder_member">
+            <p class="sendorder_orderform_label">거래화원사 확인</p>
+            <p class="p_l";>|</p>
+            <div class="sendorver_orderform_member">
+            <p class="font_weight_600">발주화원<h2 class="send_place">서울특별시 서초구<h2 class="send_member">메이플라워</h2></h2></p></div>
+            <div class="giveorder_orderform_member">
+            <p class="font_weight_600">수주화원<h2 class="send_place">대구광역시 달서구<h2 class="send_member">썬플라워사업부</h2></h2></p></div>
+            <!-- class="animate__animated animate__flash animate__delay-2s" -->
+          </div>
+          <div class="sendorder_date">
+            <p class="sendorder_orderform_label">배송요구 날짜/시간</p>
+            <p class="p_l";>|</p>
+            <input type="date" id="currentDate" class="short_input" style="background-image:none">
+            <select name="ReserveHour" id="long-select" onchange="getselectvalue()" class="delivery_time">
+              <option value="A" >즉시발송</option>
+              <option value="O">하루중</option>
+              <option value="P">오전중</option>
+              <option value="Q">오후중</option>
+              <option value="R">통화후</option>
+              <option value="08">08 시</option>
+              <option value="09">09 시</option>
+              <option value="10">10 시</option>
+              <option value="11">11 시</option>
+              <option value="12">12 시</option>
+              <option value="13">13 시</option>
+              <option value="14">14 시</option>
+              <option value="15">15 시</option>
+              <option value="16">16 시</option>
+              <option value="17">17 시</option>
+              <option value="18">18 시</option>
+              <option value="19">19 시</option>
+              <option value="20">20 시</option>
+              <option value="21">21 시</option>
+              <option value="22">22 시</option>
+              <option value="23">23 시</option>
+            </select>
+            <select class="delivery_type">
+              <option value="A">도착</option>
+              <option value="B">예식</option>
+              <option value="C">행사</option>
+            </select>
+            <input type="text" placeholder="직접입력" spellcheck="false" class="long_input">
+          </div>
+          <div class="sendorder_orderform">
+            <div class="sendorder_orderform_item">
+              <p class="sendorder_orderform_label">상품 입력/선택</p>
+              <p class="p_l";>|</p>
+              <input placeholder="상품명 입력해주세요" spellcheck="false" type="text" class="product_1" >
+              <button  onclick="sel_text_1(this.textContent)">근조화환</button>
+              <button  onclick="sel_text_1(this.textContent)">축하화환</button>
+              <button  onclick="sel_text_1(this.textContent)">꽃바구니</button>
+              <button  onclick="sel_text_1(this.textContent)">동양란</button>
+              <button  onclick="sel_text_1(this.textContent)">서양란</button>
+            </div>
+            <div class="sendorder_orderform_originalprice">
+              <p class="sendorder_orderform_label">원청금액 입력</p>
+              <p class="p_l";>|</p>
+              <input placeholder="원청금액을 입력해주세요" spellcheck="false" type="text" class="product_2">
+              <button  onclick="sel_text_2(this.textContent)">50000</button>
+              <button  onclick="sel_text_2(this.textContent)">60000</button>
+              <button  onclick="sel_text_2(this.textContent)">80000</button>
+              <button  onclick="sel_text_2(this.textContent)">100000</button>
+              <button  onclick="sel_text_2(this.textContent)">150000</button>
+            </div>
+            <div class="sendorder_orderform_transactionprice">
+              <p class="sendorder_orderform_label">거래금액 입력</p>
+              <p class="p_l";>|</p>
+              <input placeholder="거래금액을 입력해주세요" spellcheck="false" type="text" class="product_3">
+              <!-- <button  onclick="sel_text_3(this.textContent)">35000</button> -->
+              <button  onclick="sel_text_3(this.textContent)">38000</button>
+              <button  onclick="sel_text_3(this.textContent)">45000</button>
+              <button  onclick="sel_text_3(this.textContent)">56000</button>
+              <button  onclick="sel_text_3(this.textContent)">60000</button>
+              <button  onclick="sel_text_3(this.textContent)">120000</button>
+            </div>
+          </div>
+          <div class="sendorder_address">
+            <div class="sendorder_address_item" id="item_1">
+              <p class="sendorder_orderform_label">배송지 입력</p>
+              <p class="p_l"; >|</p>
+              <input placeholder="배송지 주소를 정확하게 입력해주세요" spellcheck="false" type="text" id="sendorder_address_placeholder" onchange="area_price()">
+            </div>
+
+            <div class="sendorder_address_item" id="item_2">
+              <p class="sendorder_orderform_label">받는분 성함</p>
+              <p class="p_l";>|</p>
+              <input placeholder="성함을 입력해주세요" spellcheck="false" type="text" style="margin-right: 30px;" class="long_input">
+              <p class="sendorder_orderform_label">연락처</p>
+              <p class="p_l";>|</p>
+              <input placeholder="연락처를 입력해주세요" spellcheck="false" type="text" class="long_input">
+            </div>
+
+          </div>
+          <div class="sendorder_ribbon">
+            <div class="ribbon_button" style="margin-bottom: 10px;">
+              <button  onclick="sel_text_4(this.textContent)">삼가 故人의 冥福을 빕니다</button>
+              <button  onclick="sel_text_4(this.textContent)">謹弔(근조)</button>
+              <button  onclick="sel_text_4(this.textContent)">祝結婚(축결혼)</button>
+              <button  onclick="sel_text_4(this.textContent)">祝華婚(축화혼)</button>
+              <button  onclick="sel_text_4(this.textContent)">祝昇進(축승진)</button>
+              <button  onclick="sel_text_4(this.textContent)">祝開業(축개업)</button>
+            </div>
+            <div class="sendorder_ribbon_item" style="margin-bottom: 7px;">
+              <p class="sendorder_orderform_label">리본문구(경조사어)</p>
+              <p class="p_l"; >|</p>
+              <input placeholder="삼가 故人의 명복을 빕니다 | 축결혼 | 축화혼 | 결혼을 축하드립니다" spellcheck="false" type="text" id="sendorder_ribbon_item" class="product_4">
+            </div>
+            <div class="sendorder_ribbon_item">
+              <p class="sendorder_orderform_label">리본문구(보내는분)</p>
+              <p class="p_l"; >|</p>
+              <input placeholder="썬플라워 임직원 일동 | 썬플라워 대표이사 홍길동" spellcheck="false" type="text" id="sendorder_ribbon_item">
+            </div>
+          </div>
+          <div class="sendorder_requirements">
+            <div class="sendorder_requirements_item" id="item_2">
+              <p class="sendorder_orderform_label">배송 시 요구사항</p>
+              <p class="p_l"; >|</p>
+              <input placeholder="요구사항이 있을 시, 정확하게 입력 부탁드립니다." spellcheck="false" type="text" id="sendorder_requirements_placeholder" class="product_5">
+              <button onclick="sel_text_5()">현장사진 요청(기존내용 사라짐)</button>
+            </div>
+          </div>
+          <div class="sendorder_complete">
+            <div class="sendorder_complete_item" id="item_2">
+              <button type="button" class="sendorder_complete_button_active">본부발주 실행</button>
+              <button type="button" class="sendorder_complete_button">주문서 미리보기</button>
+            </div>
+          </div>
+        </div>
+        <!-- sendorder.html 전용 intro -->
+    </main>
+
+<!-- 모든 페이지 공통 footer 영역 START -->
+    <footer class="footer">
+      <div class="footer_infor">
+        <img class="footer_logo" src="/images/kakaologo.svg" width="300px;">
+        
+      </div>
+      <div class="footer_infor_text_1">
+        <p>서비스명: 썬플라워 | 사업자명: 메이플라워 | 사업자번호: 515-95-38474</p>
+        <p>본사 수발주관리 사업부 : 대구광역시 달서구 본리동 650-5 1층 메이플라워</p>
+      </div>
+      <div class="footer_infor_text_2">
+        <p>※ 본 사이트내의 모든 내용은 저작권법에 의해 보호되며 무단 사용을 금합니다.</p>
+        <p>Copyright ⓒ 2024 메이플라워, All rights reserved.</p>
+      </div>
+    </footer>
+<!-- 모든 페이지 공통 footer 영역 END -->
+<script src="./javascript/index.js"></script>
+</body>
+</html>

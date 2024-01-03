@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.js"></script>
+    <title>SUN플라워 인트라넷</title>
+</head>
+<body>
+    <!-- 모든 페이지 공통영역 START -->
+    <header class="Nav">
+      <div class="logotop">
+        <a href="/intra.html"><img class="logo" src="/images/kakaologo.svg" style="margin-right: 25px;"></a>
+        <div class="call">
+          <p>본사 대표번호</p><span>1666-5522</span>
+          <p>본사 FAX</p><span>053-572-2788</span>
+          <p>본사 휴대폰</p><span style="padding-right: 0px;">010-3017-2567</span>
+        </div>
+      </div>
+      <div class="menulist">
+        <a href="./sendorder.html" id="menulist_btn1">본부발주</a>
+        <a href="#" id="menulist_btn2">화원간발주</a>
+        <a href="#" id="menulist_btn3">발주조회</a>
+        <a href="#" id="menulist_btn4">수주조회</a>
+        <a href="#" id="menulist_btn5">정산내역</a>
+        <a href="#" id="menulist_btn6">공지사항</a>
+        <a href="#" id="menulist_btn6">커뮤니티</a>
+      </div>
+      <div class="megaphone">
+        <p class="left_megaphone">공지사항</p>
+
+          <div class="slide_text">
+              <div id="megaphone_list">새롭게 오픈한 썬플라워 인트라넷입니다. 반갑습니다^^</div>
+          </div>
+
+        <p class="right_megaphone">당일 미취급 상품 및 휴일설정</p>
+        <p class="right_megaphone">정보수정</p>
+        <a class="right_megaphone" href='/index.html'>로그아웃</a>
+      </div>
+    </header>
+        
+    <main class="intro">
+      <div class="intro_left_menu">
+        <div class="intro_left_menu_userinfor">
+          <div class="intro_left_menu_header">회원접속정보</div>
+          <div class="intro_left_menu_body"><span><strong>메이플라워</strong> 님</span>즐거운 하루 되세요!</div>
+          <div class="intro_left_menu_body">서비스 지역<span><strong>대구광역시 달서구</strong></span></div>
+        </div>
+        <div class="intro_left_menu_Settlement">
+          <div class="intro_left_menu_header">이 달의 정산정보</div>
+          <div class="intro_left_menu_body">12월달 정산금액<span><strong>8,230,000</strong> 원</span></div>
+          <div class="intro_left_menu_body"><h5>본부로 입금하실 금액</h5></div>
+        </div>
+        <div class="intro_left_menu_category">
+          <div class="intro_left_menu_header">수발주 메뉴</div>
+          <div class="intro_left_menu_body_list">
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">즉시 본부발주</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">즉시 화원간발주</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전체 발주리스트</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전체 수주리스트</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">미확인리스트</a></div>
+          </div>
+        </div>
+        <div class="intro_left_menu_plus">
+          <div class="intro_left_menu_header">통계 메뉴</div>
+          <div class="intro_left_menu_body_list">
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">계산서 발행내역</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전국 순위현황</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">정산 연체회원</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#" style="color: green">전체 정산내역</a></div>
+            <div class="intro_left_menu_body"><img src="/images/menu_arrow.svg" width="8%"><a href="#">서비스 회원검색</a></div>
+          </div>
+        </div>
+        
+      </div>
+    <!-- 모든 페이지 공통영역 END -->
+
+      <div class="intro_center">
+        <div class="intro_center_megaphone">
+         <div class="intro_center_megaphone_in">
+          <p style="color: green; margin-right: -10px;">SUN FLOWER<p>본부 운영시간</p></p>
+          <p>08:30 ~ 19:00</p><span>운영시간 외 주문 건은 익일 오전에 확인합니다. </span>
+        </div>
+        <div class="intro_center_megaphone_in2"></div>
+        </div>
+
+        <!-- <div class="intro_center_megaphone2"> 공지사항
+          <p style="margin-left: 5px; margin-bottom: 8px;" class="animate__animated animate__flash"><span class="intro_center_megaphone2_date"> </span>본부 공지사항을 안내드립니다.</p>
+          <span class="small_span" style="margin-left: 5px; ">(읽지 않아서 생기는 문제에 대한 책임은 화원사에게 있음을 알립니다)</span>
+          <li style="margin-top: 25px;">1.<span id="intro_center_megaphone2_sel1">새롭게 오픈한 썬플라워 인트라넷입니다. 반갑습니다</span></li>
+          <li>2.<span id="intro_center_megaphone2_sel2">공지사항 TEST 등록</span></li>
+        </div> -->
+
+        <div class="intro_center_sendorderlist">
+          <div class="intro_center_sendorderlist_megaphone">
+            <p class="strong">최근주문 통합 발주리스트</p>
+            <p>발주 통계: <span>5,194,410</span> 원 (<span>128</span>건)</p>
+            <img src="/images/link.svg" class="megaphone_img">
+            <a href="#">전체 발주리스트 바로가기</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>주문번호</th>
+                <th>발주협력화원</th>
+                <th>수주협력화원</th>
+                <th>주문접수일<br>배송요구일</th>
+                <th>배송지 정보</th>
+                <th>상품정보<br>협력금액</th>
+                <th>배송현황</th>
+                <th>배송<br>사진</th>
+                <th>인수자</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-9036</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="unidentified_text">미확인</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></a></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-5646</a></td>
+                <td>썬플라워 본사</td><td>썬플라워 본사</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-3187</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-3881</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="unidentified_text">미확인</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-1237</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="unidentified_text">미확인</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-9631</a></td>
+                <td>썬플라워 본사</td><td>썬플라워 본사</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조바구니<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-9434</a></td>
+                <td>썬플라워 본사</td><td>썬플라워 본사</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 특대<br>35,000원</td>
+                <td class="unidentified_text">주문거절</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-2846</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="intro_center_giveorderlist">
+          <div class="intro_center_giveorderlist_megaphone">
+            <p class="strong">최근주문 통합 수주리스트</p>
+            <p>수주 통계: <span>5,194,410</span> 원 (<span>128</span>건)</p>
+            <img src="/images/link.svg" class="megaphone_img">
+            <a href="#">전체 수주리스트 바로가기</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>주문번호</th>
+                <th>발주협력화원</th>
+                <th>수주협력화원</th>
+                <th>주문접수일<br>배송요구일</th>
+                <th>배송지 정보</th>
+                <th>상품정보<br>협력금액</th>
+                <th>배송현황</th>
+                <th>배송<br>사진</th>
+                <th>인수자</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-9036</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="unidentified_text">미확인</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-5646</a></td>
+                <td>썬플라워 본사</td><td>썬플라워 본사</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-3187</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-3881</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="unidentified_text">미확인</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></a></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-1237</td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="unidentified_text">미확인</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-9631</a></td>
+                <td>썬플라워 본사</td><td>썬플라워 본사</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조바구니<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="unidentified_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-9434</a></td>
+                <td>썬플라워 본사</td><td>썬플라워 본사</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 특대<br>35,000원</td>
+                <td class="unidentified_text">주문거절</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+              <tr class="receipt_table">
+                <td class="order_number"><a onclick="openPopup()">SUN-2846</a></td>
+                <td>(대구)메이플라워</td><td>(대구)메이플라워</td>
+                <td class="this_date">2023-12-28 16:43<br><span class="want_date">2023-12-30 12:00</span></td>
+                <td>대구 달서구 한결장례식장 (성당동) 103</td>
+                <td>근조 3단<br>35,000원</td>
+                <td class="receipt_text">주문접수</td>
+                <td><img src="/images/img_active_not.svg" class="td_img"></td>
+                <td>배송전</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+<!-- 모든 페이지 공통 footer 영역 START -->
+    <footer class="footer">
+      <div class="footer_infor">
+        <img class="footer_logo" src="/images/kakaologo.svg" width="300px;">
+        
+      </div>
+      <div class="footer_infor_text_1">
+        <p>서비스명: 썬플라워 | 사업자명: 메이플라워 | 사업자번호: 515-95-38474</p>
+        <p>본사 수발주관리 사업부 : 대구광역시 달서구 본리동 650-5 1층 메이플라워</p>
+      </div>
+      <div class="footer_infor_text_2">
+        <p>※ 본 사이트내의 모든 내용은 저작권법에 의해 보호되며 무단 사용을 금합니다.</p>
+        <p>Copyright ⓒ 2024 메이플라워, All rights reserved.</p>
+      </div>
+    </footer>
+<!-- 모든 페이지 공통 footer 영역 END -->
+<script src="./javascript/index.js"></script>
+</body>
+</html>
